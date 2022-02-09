@@ -1,0 +1,62 @@
+\documentclass[a4paper,12pt, oneside]{book}
+\usepackage{do_not_touch_me}
+\usepackage{verbatim}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{natbib}
+\usepackage{graphicx}
+%\usepackage{hyperref}
+\usepackage{amsmath}
+\graphicspath{{graphics/}}
+%\usepackage{setspace}
+%\doublespacing
+\linespread{2.0}
+\begin{document}
+
+\include{titlepage} %this can percentaged
+
+
+
+\frontmatter
+\addcontentsline{toc}{chapter}{Declaration}
+\include{declaration}  %this can percentaged
+%\addcontentsline{toc}{chapter}{Submission Form}
+%\include{submission}
+
+\addcontentsline{toc}{chapter}{Dedication}
+\include{dedication} %this can percentaged
+
+\addcontentsline{toc}{chapter}{Acknowledgment}
+\include{acknowledgement} %this can percentaged
+
+\addcontentsline{toc}{chapter}{Abstract}
+%\include{abstract} %this can percentaged ***
+%\tableofcontents  %this can percentaged ***
+
+\newpage
+%\listoffigures  %this can percentaged ***
+\addcontentsline{toc}{chapter}{List of Figures}
+\newpage
+%\listoftables   %this can percentaged ***
+\addcontentsline{toc}{chapter}{List of Tables}
+%\addcontentsline{toc}{chapter}{Abbreviation}
+%\include{abbreviation} %this can percentaged
+\mainmatter
+\include{chapter1} %this can percentaged
+\include{chapter2} %this can percentaged
+\include{chapter3} %this can percentaged
+\include{chapter4} %this can percentaged
+\include{chapter5} %this can percentaged
+
+
+\backmatter
+\bibliographystyle{apalike} %this can percentaged
+\bibliography{references}
+\nocite{*}
+\addcontentsline{toc}{chapter}{References}
+
+
+%\include{appendix} %this can percentaged
+
+
+\end{document}
