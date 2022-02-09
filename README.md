@@ -13,4 +13,5 @@ To download ***TeXstudio***, use this [link](https://www.texstudio.org/#:~:text=
 
 To work on ***Overleaf***, use this [link](https://www.overleaf.com/)
 
+To install latex on  ***Ubuntu*** ,use this [link](https://milq.github.io/install-latex-ubuntu-debian/)
 
